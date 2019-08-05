@@ -1,0 +1,41 @@
+{
+	"LoginHeader": "Введите ваши логин и пароль для входа в систему.",
+	"LoginNoAccountMessage": "Если у вас еще нет аккаунта, вы можете ",
+	"UserFormHeader": "Введите нужные данные в поля, после чего нажмите «Сохранить»",
+	"LanguageSwitcher": "Язык сайта:",
+	
+	"ActionTextLogin": "Войти",
+	"ActionTextRegister": "Зарегистрироваться",
+	"ActionTextEdit": "Редактировать",
+	"ActionTextSave": "Сохранить",
+	"ActionTextCancel": "Отмена",
+	"ActionTextLogout": "Выйти",
+	
+	"FieldTextLogin": "Логин",
+	"FieldTextPassword": "Пароль",
+	"FieldTextName": "Имя",
+	"FieldTextSurname": "Фамилия",
+	"FieldTextBirthDate": "Дата рождения",
+	"FieldTextImage": "Изображение",
+	
+	"FieldPlaceholderLogin": "Введите логин",
+	"FieldPlaceholderPassword": "Введите пароль",
+	"FieldPlaceholderName": "Введите имя",
+	"FieldPlaceholderSurname": "Введите фамилию",
+	
+	"FieldErrorLogin": "Длина логина должна составлять от 6 до 15 символов",
+	"FieldErrorLoginUnavailable": "Данный логин занят",
+	"FieldErrorPassword": "Длина логина должна составлять от 6 до 20 символов",
+	"FieldErrorName": "Введите имя",
+	"FieldErrorSurname": "Введите фамилию",
+	"FieldErrorBirthDate": "Введите дату рождения (12+ лет)",
+	"FieldErrorCommon": "Обязательное поле",
+
+	"ResponseLoginSuccess": "Вход успешно выполнен. Сейчас будет открыт ваш профиль",
+	"ResponseLoginError": "Учетная запись с введенными данными не найдена. Проверьте правильность введенных данных",
+	"ResponseCreateAccountSuccess": "Учетная запись успешно создана. Сейчас будет открыт ваш профиль",
+	"ResponseCreateAccountError": "Произошла ошибка при создании учетной записи. Попробуйте позже или обратитесь в техподдержку",
+	"ResponseUpdateProfileSuccess": "Профиль успешно изменен",
+	"ResponseUpdateProfileError": "Произошла ошибка при обновлении профиля. Попробуйте позже или обратитесь в техподдержку",
+	"ResponseInvalidProfileDataError": "Не все данные заполнены корректно. Проверьте правильность введенных данных"
+}

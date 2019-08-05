@@ -1,0 +1,170 @@
+/* Content styles */
+.content_fundamental_wrapper{
+	background-color: #E9E9E9;
+	border: 1px solid;
+	margin: 0 auto;
+	padding: 20px;
+	width: 640px;
+	.content_wrapper{
+		display: none;
+		&._mod-active{
+			display: block;
+		}
+		.form_wrapper{
+			.upper_text_wrapper{
+				margin-bottom: 20px;
+				.reg_link{
+					color: blue;
+				}
+			}
+			.form{
+				margin-top: 40px;
+				.field_wrapper{
+					margin: 10px 0;
+					.field_label{
+						display: inline-block;
+						text-align: left;
+						width: 80px;
+					}
+					.field_text_input{
+						padding: 3px;
+					}
+					.field_error_wrapper{
+						margin-left: 80px;
+						margin-top: 3px;
+						visibility: hidden;
+						.field_error{
+							color: red;
+							font-size: 14px;
+							font-style: italic;
+						}
+						.field_unavailable_message{
+							display: none;
+						}
+					}
+					input._mod-invalid ~ .field_error_wrapper{
+						visibility: visible;
+					}
+					input._mod-unavailable ~ .field_error_wrapper{
+						visibility: visible;
+						.field_invalid_message{
+							display: none;
+						}
+						.field_unavailable_message{
+							display: block;
+						}
+					}
+				}
+			}
+			.user_form{
+				.field_wrapper{
+					.field_label{
+						width: 150px;
+					}
+					.user_form_image{
+						margin-left: 153px;
+						margin-top: 3px;
+						width: 200px;
+					}
+					.field_error_wrapper{
+						margin-left: 150px;
+					}
+				}
+			}
+		}
+		.profile_wrapper{
+			.profile_info_wrapper{
+				.profile_text_wrapper{
+					display: inline-block;
+					float: left;
+					width: 380px;
+					.profile_field{
+						margin-bottom: 10px;
+						.field_label{
+							display: inline-block;
+							text-align: left;
+							width: 130px;
+						}
+					}
+				}
+				.profile_image_wrapper{
+					display: inline-block;
+					float: right;
+					width: 200px;
+					.profile_image{
+						width: 100%;
+					}
+				}
+			}
+		}
+		.buttons_wrapper{
+			margin-top: 30px;
+			.button{
+				cursor: pointer;
+				display: inline-block;
+				margin-right: 17px;
+				padding: 5px 10px;
+				&.submit_button{
+					background-color: #CFFFCF;
+				}
+				&.reg_button{
+					background-color: #7E91D8;
+					color: white;
+				}
+				&.cancel_button{
+					background-color: #E08181;
+					color: white;
+				}
+			}
+		}
+	}
+	.echo{
+		background-color: #F1E3BD;
+		display: none;
+		font-style: italic;
+		left: 50%;
+		margin-left: -200px;
+		padding: 10px 20px;
+		position: absolute;
+		text-align: center;
+		top: 20px;
+		width: 400px;
+		z-index: 101;
+	}
+	.language_switcher_wrapper{
+		bottom: 20px;
+		float: right;
+		position: relative;
+		.language_switcher_text{
+			font-style: italic;
+			margin-right: 5px;
+		}
+		.language_switcher{
+			.language{
+				display: inline-block;
+				padding: 3px 5px;
+			}
+		}
+	}
+}
+
+/* Styles for _mod classes, override basic if clash */
+._mod-clr{
+	clear: both!important;
+}
+._mod-clickable{
+	border-bottom: 1px dashed!important;
+	cursor: pointer!important;
+}
+._mod-bold{
+	font-weight: bold!important;
+}
+._mod-italic{
+	font-style: italic!important;
+}
+._mod-valid{
+	box-shadow: 0 0 5px green!important;
+}
+._mod-invalid, ._mod-unavailable{
+	box-shadow: 0 0 5px red!important;
+}

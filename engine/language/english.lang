@@ -1,0 +1,41 @@
+{
+	"LoginHeader": "Enter your login and password to log in with your account.",
+	"LoginNoAccountMessage": "If you don't have account yet, you can ",
+	"UserFormHeader": "Enter necessary data. After that, click «Save»",
+	"LanguageSwitcher": "Site language:",
+	
+	"ActionTextLogin": "Log in",
+	"ActionTextRegister": "Register",
+	"ActionTextEdit": "Edit",
+	"ActionTextSave": "Save",
+	"ActionTextCancel": "Cancel",
+	"ActionTextLogout": "Log out",
+	
+	"FieldTextLogin": "Login",
+	"FieldTextPassword": "Password",
+	"FieldTextName": "First name",
+	"FieldTextSurname": "Last name",
+	"FieldTextBirthDate": "Birth date",
+	"FieldTextImage": "Image",
+	
+	"FieldPlaceholderLogin": "Enter your login",
+	"FieldPlaceholderPassword": "Enter your password",
+	"FieldPlaceholderName": "Enter your first name",
+	"FieldPlaceholderSurname": "Enter your last name",
+	
+	"FieldErrorLogin": "Login should be 6 to 15 symbols long",
+	"FieldErrorLoginUnavailable": "This login is unavailable",
+	"FieldErrorPassword": "Password should be 6 to 20 symbols long",
+	"FieldErrorName": "You need to enter your first name",
+	"FieldErrorSurname": "You need to enter your last name",
+	"FieldErrorBirthDate": "Enter your birth date (12+ years)",
+	"FieldErrorCommon": "Required field",
+
+	"ResponseLoginSuccess": "You have successfully logged in. Opening your profile now",
+	"ResponseLoginError": "Invalid login and/or password. Please verify entered data and try again",
+	"ResponseCreateAccountSuccess": "Profile successfully created. Opening it now",
+	"ResponseCreateAccountError": "Technical error occurred while creating your account. Please try again later or contact tech support",
+	"ResponseUpdateProfileSuccess": "Profile successfully updated",
+	"ResponseUpdateProfileError": "Technical error occurred while updating your profile. Please try again later or contact tech support",
+	"ResponseInvalidProfileDataError": "Some of entered profile data is not valid. Please check that all required fields are entered correctly and try again"
+}
